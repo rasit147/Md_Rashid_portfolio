@@ -4,19 +4,24 @@ from PIL import Image
 # Set page configuration
 st.set_page_config(page_title="Md Rashid", page_icon="🎓")
 
-# Background Image
-# st.markdown(
-#     """
-#     <style>
-#     .stApp {
-#         background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221014/pngtree-gradient-geometric-card-luxury-light-blue-orange-image_1467872.jpg");
-#         background-size: cover;
-#     }
-#     </style>
-#     """,
-#     unsafe_allow_html=True
-# )
-
+#Background
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221014/pngtree-gradient-geometric-card-luxury-light-blue-orange-image_1467872.jpg");
+        background-size: cover;
+        color: white;  /* Text color changed to white for better visibility */
+    }
+    .custom-header {
+        background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent background for text */
+        padding: 10px;
+        border-radius: 10px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # Custom CSS for text size and spacing
 st.markdown(
     """
