@@ -4,18 +4,18 @@ from PIL import Image
 # Set page configuration
 st.set_page_config(page_title="Md Rashid", page_icon="🎓")
 
-# Background Image
-# st.markdown(
-#     """
-#     <style>
-#     .stApp {
-#         background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221014/pngtree-gradient-geometric-card-luxury-light-blue-orange-image_1467872.jpg");
-#         background-size: cover;
-#     }
-#     </style>
-#     """,
-#     unsafe_allow_html=True
-# )
+Background Image
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221014/pngtree-gradient-geometric-card-luxury-light-blue-orange-image_1467872.jpg");
+        background-size: cover;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Custom CSS for text size and spacing
 st.markdown(
@@ -109,7 +109,7 @@ with col1:
     Tools: **Python, Hugging Face pre-trained model, Streamlit for web interface**.
     """)
     st.write("[[Click for the Demo]](https://emotionn.streamlit.app/)")
-    theme_image = Image.open('Screen happy.png')  # Replace with your image file name
+    theme_image = Image.open('screen happy.png')  # Replace with your image file name
     st.image(theme_image, use_column_width=True)
     st.markdown(
         """
