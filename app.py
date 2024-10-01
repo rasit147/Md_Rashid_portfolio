@@ -4,7 +4,7 @@ from PIL import Image
 # Set page configuration
 st.set_page_config(page_title="Md Rashid", page_icon="🎓")
 
-Background Image
+# Background Image
 st.markdown(
     """
     <style>
