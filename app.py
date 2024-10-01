@@ -5,17 +5,17 @@ from PIL import Image
 st.set_page_config(page_title="Md Rashid", page_icon="🎓")
 
 # Background Image
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221014/pngtree-gradient-geometric-card-luxury-light-blue-orange-image_1467872.jpg");
-        background-size: cover;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     .stApp {
+#         background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221014/pngtree-gradient-geometric-card-luxury-light-blue-orange-image_1467872.jpg");
+#         background-size: cover;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 # Custom CSS for text size and spacing
 st.markdown(
