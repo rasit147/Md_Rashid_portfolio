@@ -11,7 +11,7 @@ st.markdown(
     .stApp {
         background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221014/pngtree-gradient-geometric-card-luxury-light-blue-orange-image_1467872.jpg");
         background-size: cover;
-        color: white;  /* Text color changed to white for better visibility */
+        color: black;  /* Text color changed to white for better visibility */
     }
     .custom-header {
         background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent background for text */
@@ -192,3 +192,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+
