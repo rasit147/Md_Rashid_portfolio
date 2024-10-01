@@ -72,7 +72,7 @@ theme_image = Image.open('DIL_0037-01-01-removebg-preview.jpg')  # Replace with 
 st.image(theme_image, width=250, caption="Md Rashid", use_column_width=False)
 
 # B.Tech info
-st.markdown("<h5 style='text-align: left;'>B.Tech, Haldia Institute of Technology, 8.17 CGPA</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: left;'>B.Tech, Haldia Institute of Technology, 8.17 CGPA</h5>",<span style='color: red;'> unsafe_allow_html=True)
 
 # Welcome Heading
 st.markdown("<h1 style='text-align: center; color: #3498db;'>HI There 👋 </h1>", unsafe_allow_html=True)
