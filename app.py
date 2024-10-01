@@ -53,7 +53,7 @@ st.markdown(
         display: inline-block;
         padding: 10px 20px;
         font-size: 16px;
-        color: white;
+        color: red;
         background-color: #333;
         text-decoration: none;
         border-radius: 5px;
