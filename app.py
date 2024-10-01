@@ -36,12 +36,15 @@ st.markdown(
     }
     h1 {
         font-size: 2.0em;  /* Larger font size for H1 */
+        color: red;        /* Make H1 red */
     }
     h2, h3 {
         font-size: 1.6em;  /* Medium font size for H2 and H3 */
+        color: red;        /* Make H2 and H3 red */
     }
     h5 {
         font-size: 1.3em;  /* Slightly larger font size for H5 */
+        color: red;        /* Make H5 red */
     }
     p {
         font-size: 1.2em;  /* Larger paragraph text */
@@ -53,7 +56,7 @@ st.markdown(
         display: inline-block;
         padding: 10px 20px;
         font-size: 16px;
-        color: red;
+        color: white;
         background-color: #333;
         text-decoration: none;
         border-radius: 5px;
@@ -67,13 +70,14 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
 # Portfolio Title and Profile Image
 theme_image = Image.open('DIL_0037-01-01-removebg-preview.jpg')  # Replace with your image file name
 st.image(theme_image, width=250, caption="Md Rashid", use_column_width=False)
 
 # B.Tech info
 st.markdown(
-    "<h5 style='text-align: left;'>B.Tech, <span style='color: red;'>Haldia Institute of Technology</span>, 8.17 CGPA</h5>", 
+    "<h5 style='text-align: left;'>B.Tech, <span style='color: red;'>Haldia Institute of Technology</span>, <span style='color: red;'> 8.17 CGPA</h5>", 
     unsafe_allow_html=True
 )
 # Welcome Heading
