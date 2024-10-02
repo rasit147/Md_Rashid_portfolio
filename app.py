@@ -72,10 +72,10 @@ st.markdown(
 
 
 # Portfolio Title and Profile Image
-theme_image = Image.open('DIL_0037-01-01-removebg-preview.jpg')  # Replace with your image file name
+theme_image = Image.open('DIL_0037-01-01-removebg-preview.jpg')  
 st.image(theme_image, width=250, caption="Md Rashid", use_column_width=False)
 
-# B.Tech info
+# My B.Tech info
 st.markdown(
     "<h5 style='text-align: left;'>B.Tech, <span style='color: red;'>Haldia Institute of Technology</span>, <span style='color: red;'> 8.17 CGPA</h5>", 
     unsafe_allow_html=True
